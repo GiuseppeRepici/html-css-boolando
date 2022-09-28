@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 .head1{
@@ -49,19 +54,33 @@
     margin: 0 auto;
     width: 920px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
+.imm{
+    overflow: hidden;
+}
 .imm img{
-    height: 400px;
-    position: relative;
+    position: relative;   
 }
 
+.card .img21 {
+    display: none;
+} 
+
+.card:hover .img11 {
+    display: none;
+} 
+
+.card:hover .img21 {
+    display: block;
+} 
 
 .cardcont{
     position: relative;
-    height: 400px;
-    
+    flex-basis: 30%;
+    margin: 20px 0;
 }
 
 .cuore{
@@ -82,7 +101,7 @@
 
 .abs1{
     position: absolute;
-    bottom: 20px;
+    bottom: 80px;
     display: flex;
 }
 
