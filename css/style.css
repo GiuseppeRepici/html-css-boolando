@@ -13,6 +13,10 @@ img{
 .head1{
     background-color: orange;
     height: 50px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 .flex1{
@@ -45,10 +49,10 @@ img{
     column-gap: 0.5rem;
 }
 
-.sect1{
-    margin-top: 40px;
-    height: 500px;
+main{
+    margin-top: 100px;
 }
+
 .flex3{
     height: 100%;
     margin: 0 auto;
