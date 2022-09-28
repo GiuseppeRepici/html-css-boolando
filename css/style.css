@@ -50,7 +50,8 @@ img{
 }
 
 main{
-    margin-top: 100px;
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 .flex3{
@@ -131,7 +132,13 @@ main{
 
 footer{
     height: 100px;
+    width: 100vw;
     background-color: orange;
+    z-index: 2; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  
 }
 
 
@@ -144,5 +151,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 
