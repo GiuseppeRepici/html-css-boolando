@@ -152,6 +152,10 @@ footer{
     align-items: center;
 }
 
+.centro:hover{
+    color: red;
+}
+
 
 
 
