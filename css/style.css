@@ -96,12 +96,30 @@
     color: white;
 }
 
+.box3{
+    background-color: green;
+    color: white;
+}
+
 
 .sect2{
     height: 500px;
 }
 
+footer{
+    height: 100px;
+    background-color: orange;
+}
 
 
+
+.cont-foot{
+    height: 100%;
+    margin: 0 auto;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
